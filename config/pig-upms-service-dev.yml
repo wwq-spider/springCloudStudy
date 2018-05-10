@@ -21,7 +21,7 @@ sharding:
       type: com.zaxxer.hikari.HikariDataSource
       driver-class-name: com.mysql.jdbc.Driver
       username: root
-      password: moshushi@123
+      password: moshushi123
       jdbc-url: jdbc:mysql://49.4.12.66:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     datasource:
       names: ds
@@ -29,7 +29,7 @@ sharding:
         type: com.zaxxer.hikari.HikariDataSource
         driver-class-name: com.mysql.jdbc.Driver
         username: root
-        password: moshushi@123
+        password: moshushi123
         jdbc-url: jdbc:mysql://49.4.12.66:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     config:
       sharding:
